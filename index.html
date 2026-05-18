@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maroc — Portail Touristique Officiel</title>
+  <meta name="description" content="Découvrez le Maroc : destinations, expériences, gastronomie et itinéraires pour un voyage inoubliable.">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="site-header" class="site-header">
+    <div class="container header-container">
+      <a href="./index.html" class="logo">
+        <span class="logo-icon"></span>
+        <span class="logo-text">Maroc<span class="text-primary">.</span></span>
+      </a>
+
+      <nav class="main-nav hide-mobile">
+        <a href="./index.html" class="nav-link active">Accueil</a>
+        <a href="./pages/destinations.html" class="nav-link">Destinations</a>
+        <a href="./pages/experiences.html" class="nav-link">Expériences</a>
+        <a href="./pages/gastronomie.html" class="nav-link">Gastronomie</a>
+        <a href="./pages/itineraires.html" class="nav-link">Itinéraires</a>
+        <a href="./pages/guide.html" class="nav-link">Guide pratique</a>
+      </nav>
+
+      <a href="./pages/itineraires.html" class="btn btn-primary btn-rounded hide-mobile">
+        Planifier mon voyage
+      </a>
+
+      <button class="mobile-menu-btn hide-desktop" aria-label="Menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="mobile-nav hide-desktop">
+      <div class="container">
+        <a href="./index.html" class="mobile-nav-link">Accueil</a>
+        <a href="./pages/destinations.html" class="mobile-nav-link">Destinations</a>
+        <a href="./pages/experiences.html" class="mobile-nav-link">Expériences</a>
+        <a href="./pages/gastronomie.html" class="mobile-nav-link">Gastronomie</a>
+        <a href="./pages/itineraires.html" class="mobile-nav-link">Itinéraires</a>
+        <a href="./pages/guide.html" class="mobile-nav-link">Guide pratique</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1920&q=80" alt="Marrakech, Maroc">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <span class="hero-eyebrow">Bienvenue au Royaume du Maroc</span>
+        <h1 class="hero-title">Là où l'orient rencontre l'occident</h1>
+        <p class="hero-subtitle">
+          Des médinas millénaires aux dunes du Sahara, des sommets de l'Atlas aux rivages atlantiques — 
+          découvrez un pays aux mille visages.
+        </p>
+        <div class="hero-actions">
+          <a href="./pages/destinations.html" class="btn btn-primary btn-lg btn-rounded">
+            Explorer les destinations
+          </a>
+          <a href="./pages/itineraires.html" class="btn btn-outline btn-lg btn-rounded">
+            Créer mon itinéraire
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-count="12" data-duration="2000">0</span>
+            <span class="stat-label">Régions à explorer</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="9" data-duration="2000">0</span>
+            <span class="stat-label">Sites UNESCO</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="3500" data-duration="2500">0</span>
+            <span class="stat-label">Km de côtes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="13" data-duration="2000">0</span>
+            <span class="stat-label">Siècles d'histoire</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Destinations</span>
+          <h2 class="section-title">Les incontournables</h2>
+          <p class="section-subtitle">
+            Des villes impériales aux villages berbères, explorez les trésors du Maroc.
+          </p>
+        </div>
+
+        <div class="destinations-grid">
+          <article class="destination-card card fade-in-on-scroll">
+            <div class="card-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80" alt="Marrakech" class="card-image">
+              <span class="card-badge badge badge-default">Imperial</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Marrakech</h3>
+              <p class="card-description">
+                La ville rouge aux mille souks, jardins secrets et palais somptueux. 
+                Le cœur battant du Maroc.
+              </p>
+              <a href="./pages/destinations.html#marrakech" class="card-link">
+                Découvrir
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="destination-card card fade-in-on-scroll">
+            <div class="card-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Fès" class="card-image">
+              <span class="card-badge badge badge-default">Spirituel</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Fès</h3>
+              <p class="card-description">
+                La plus ancienne méduina du monde, capitale spirituelle et artisanale 
+                du Maroc.
+              </p>
+              <a href="./pages/destinations.html#fes" class="card-link">
+                Découvrir
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="destination-card card fade-in-on-scroll">
+            <div class="card-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1553244619-cfd23e3e4ed5?w=800&q=80" alt="Chefchaouen" class="card-image">
+              <span class="card-badge badge badge-secondary">Perle bleue</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Chefchaouen</h3>
+              <p class="card-description">
+                Nichée dans le Rif, cette ville aux façades bleues est un havre de paix 
+                et de couleurs.
+              </p>
+              <a href="./pages/destinations.html#chefchaouen" class="card-link">
+                Découvrir
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="destination-card card fade-in-on-scroll">
+            <div class="card-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?w=800&q=80" alt="Sahara" class="card-image">
+              <span class="card-badge badge badge-default">Aventure</span>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Le Sahara</h3>
+              <p class="card-description">
+                Dunes dorées, nuits étoilées et lever de soleil magique sur l'erg Chebbi. 
+                Une expérience unique.
+              </p>
+              <a href="./pages/destinations.html#sahara" class="card-link">
+                Découvrir
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-footer">
+          <a href="./pages/destinations.html" class="btn btn-outline">
+            Voir toutes les destinations
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Expériences</span>
+          <h2 class="section-title">Vivez le Maroc authentique</h2>
+          <p class="section-subtitle">
+            Des activités uniques pour immerger dans la culture marocaine.
+          </p>
+        </div>
+
+        <div class="experiences-grid">
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h3 class="experience-title">Trek dans l'Atlas</h3>
+            <p class="experience-description">
+              Randonnées guidées à travers les vallées berbères, villages en terre 
+              et sommets enneigés.
+            </p>
+          </div>
+
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+            </div>
+            <h3 class="experience-title">Séjour en Riad</h3>
+            <p class="experience-description">
+              Dormez dans des palais restaurés avec patios, fontaines et zelliges 
+              traditionnels.
+            </p>
+          </div>
+
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="experience-title">Hammam & Spa</h3>
+            <p class="experience-description">
+              Rituel de purification traditionnel avec savon noir, gommage et massage 
+              à l'huile d'argan.
+            </p>
+          </div>
+
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18a5 5 0 0 0-10 0"></path><line x1="12" y1="9" x2="12" y2="2"></line><line x1="4.22" y1="10.22" x2="5.64" y2="11.64"></line><line x1="1" y1="18" x2="3" y2="18"></line><line x1="21" y1="18" x2="23" y2="18"></line><line x1="18.36" y1="11.64" x2="19.78" y2="10.22"></line><line x1="23" y1="22" x2="1" y2="22"></line><polyline points="16 5 12 9 8 5"></polyline></svg>
+            </div>
+            <h3 class="experience-title">Cours de cuisine</h3>
+            <p class="experience-description">
+              Apprenez à préparer le couscous, le tagine et le thé à la menthe 
+              avec des chefs locaux.
+            </p>
+          </div>
+
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <h3 class="experience-title">Artisanat & Souks</h3>
+            <p class="experience-description">
+              Découvrez les métiers traditionnels : tissage, poterie, travail du cuir 
+              et ferronnerie.
+            </p>
+          </div>
+
+          <div class="experience-item fade-in-on-scroll">
+            <div class="experience-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <h3 class="experience-title">Surf & Kitesurf</h3>
+            <p class="experience-description">
+              Vagues parfaites à Essaouira et Taghazout pour tous les niveaux, 
+              toute l'année.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gastronomie Preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Gastronomie</span>
+          <h2 class="section-title">Une cuisine aux mille épices</h2>
+          <p class="section-subtitle">
+            Des saveurs séculaires qui racontent l'histoire du Maroc.
+          </p>
+        </div>
+
+        <div class="gastro-grid">
+          <div class="gastro-card card fade-in-on-scroll">
+            <img src="https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=600&q=80" alt="Tagine" class="gastro-image">
+            <div class="gastro-content">
+              <h3 class="gastro-title">Le Tagine</h3>
+              <p class="gastro-description">
+                Plat emblématique cuit lentement dans son récipient en terre cuite, 
+                aux saveurs subtiles et parfumées.
+              </p>
+            </div>
+          </div>
+
+          <div class="gastro-card card fade-in-on-scroll">
+            <img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&q=80" alt="Couscous" class="gastro-image">
+            <div class="gastro-content">
+              <h3 class="gastro-title">Le Couscous</h3>
+              <p class="gastro-description">
+                Plat du vendredi, semoule fine accompagnée de légumes, viande 
+                et bouillon parfumé.
+              </p>
+            </div>
+          </div>
+
+          <div class="gastro-card card fade-in-on-scroll">
+            <img src="https://images.unsplash.com/photo-1578894652893-355b913b5b90?w=600&q=80" alt="Thé à la menthe" class="gastro-image">
+            <div class="gastro-content">
+              <h3 class="gastro-title">Thé à la menthe</h3>
+              <p class="gastro-description">
+                Rituel de l'hospitalité marocaine, servi avec art et générosité 
+                à chaque rencontre.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-footer">
+          <a href="./pages/gastronomie.html" class="btn btn-outline">
+            Explorer la gastronomie
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-bg">
+        <img src="https://images.unsplash.com/photo-1489493887464-892be6d1daae?w=1920&q=80" alt="Maroc">
+      </div>
+      <div class="cta-overlay"></div>
+      <div class="cta-content container">
+        <h2 class="cta-title">Prêt à vivre l'aventure ?</h2>
+        <p class="cta-subtitle">
+          Laissez-nous vous guider dans la création de votre voyage de rêve au Maroc.
+        </p>
+        <a href="./pages/itineraires.html" class="btn btn-primary btn-lg btn-rounded">
+          Commencer mon itinéraire
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-icon"></span>
+            <span class="logo-text">Maroc.</span>
+          </div>
+          <p class="footer-description">
+            Le portail touristique officiel du Royaume du Maroc — destinations, expériences,
+            itinéraires et inspiration pour un voyage inoubliable.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-title">Explorer</h4>
+          <ul class="footer-links">
+            <li><a href="./pages/destinations.html">Destinations</a></li>
+            <li><a href="./pages/experiences.html">Expériences</a></li>
+            <li><a href="./pages/gastronomie.html">Gastronomie</a></li>
+            <li><a href="./pages/itineraires.html">Itinéraires</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-title">Pratique</h4>
+          <ul class="footer-links">
+            <li><a href="./pages/guide.html">Visa & formalités</a></li>
+            <li><a href="./pages/guide.html">Transport</a></li>
+            <li><a href="./pages/guide.html">Santé & sécurité</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Portail Touristique du Maroc — Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Retour en haut">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
