@@ -485,66 +485,7 @@
   line-height: 1.6;
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
-.site-footer {
-  margin-top: 4rem;
-  border-top: 1px solid rgba(229, 221, 211, 0.6);
-  background-color: rgba(245, 240, 232, 0.4);
-  padding: 4rem 0 0;
-}
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 3rem;
-  padding-bottom: 3rem;
-}
-
-.footer-brand .logo {
-  margin-bottom: 1rem;
-}
-
-.footer-description {
-  max-width: 320px;
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-  line-height: 1.6;
-}
-
-.footer-title {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.footer-links {
-  list-style: none;
-}
-
-.footer-links li {
-  margin-bottom: 0.5rem;
-}
-
-.footer-links a {
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-  transition: color 0.2s;
-}
-
-.footer-links a:hover {
-  color: var(--primary);
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--border);
-  padding: 1.5rem 0;
-  text-align: center;
-  font-size: 0.75rem;
-  color: var(--muted-foreground);
-}
 
 /* ============================================
    BACK TO TOP

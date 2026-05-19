@@ -486,3 +486,83 @@ img {
 .nav-link:hover, .nav-link.active {
   color: var(--primary);
 }
+
+/* ============================================
+   FOOTER STYLES
+   ============================================ */
+.site-footer {
+  margin-top: 4rem;
+  background-color: #1e1814;
+  color: #f5f0e8;
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.footer-brand .logo {
+  margin-bottom: 1.5rem;
+}
+
+.footer-brand .logo-text {
+  color: #ffffff;
+}
+
+.footer-description {
+  max-width: 320px;
+  font-size: 0.95rem;
+  color: #b8a99a;
+  line-height: 1.6;
+}
+
+.footer-title {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  font-size: 0.95rem;
+  color: #b8a99a;
+  line-height: 2;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--primary);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #888888;
+}
